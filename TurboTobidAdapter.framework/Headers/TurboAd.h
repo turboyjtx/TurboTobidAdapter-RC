@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 //获取版本号
-+ (NSString *)getSDKVerson;
++ (NSString *)SDKVersion;
 
 //初始化
 - (void)init:(NSString *)appID;
